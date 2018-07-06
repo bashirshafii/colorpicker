@@ -29,14 +29,6 @@ function setColorPickerEventListeners(element, colors, pickerElements) {
 	}
 }
 
-	// colors.green.addEventListener('change', () => {
-	// 	console.log("Green value: ", colors.green.value);
-	// 	elementBGColor(element, colors.red.value,colors.green.value,colors.blue.value);
-	// })
-	// colors.blue.addEventListener('change', () => {
-	// 	console.log("Blue value: ", colors.blue.value);
-	// 	elementBGColor(element, colors.red.value,colors.green.value,colors.blue.value);
-	// })
 
 function elementBGColor(element,red, green, blue) {
 	rgbVal = [red,green, blue].join(',');
